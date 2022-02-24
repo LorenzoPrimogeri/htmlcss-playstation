@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start utility */
+
+/* finish utility */
+/*****************start header **********************/
+img[src="img/sony_logo.svg"]{
+    height: 20px;
+}
+img[src="img/chevron-down-solid.svg"]{
+    height: 10px;
+}
+img[src="img/lens.svg"]{
+    height: 20px;
+}
+/* start nav */
+ul{
+    list-style: none;
+}
+nav li{
+ display: inline-block;
+ padding-right: 10px;
+}
+/* finish nav */
+
+/**************** finish header **********************/
