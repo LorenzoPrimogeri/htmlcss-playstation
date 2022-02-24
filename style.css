@@ -57,6 +57,12 @@ a{
 .line{
     height: 2px;
 }
+.lp-rounded{
+    border-radius: 20px;
+}
+.pd-3px{
+    padding: 3px;
+}
 /* finish utility */
 /*****************start header **********************/
 img[src="img/sony_logo.svg"]{
@@ -77,12 +83,7 @@ nav li{
  padding-right: 12px;
  font-weight: 700;
 }
-.lp-rounded{
-    border-radius: 20px;
-}
-.pd-3px{
-    padding: 3px;
-}
+
 /* finish nav */
 /**************** finish header **********************/
 /**************** start jumbotron **********************/
