@@ -1,6 +1,9 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
 /* start utility */
 .lp-hidden{
     display: none;
@@ -14,6 +17,15 @@ a{
 }
 .t-white{
     color: white;
+}
+.t-grey{
+    color: grey;
+}
+.t-blue{
+    color: hsl(207deg 100% 40%);
+}
+.bg-blue{
+    background-color: hsl(207deg 100% 40%);
 }
 .bg-grey{
     background-color: hsl(0deg 0% 21%);
@@ -38,6 +50,13 @@ a{
     width: 95%;
     margin: auto;
 } 
+.w-80{
+    width: 80%;
+    margin: auto;
+} 
+.line{
+    height: 2px;
+}
 /* finish utility */
 /*****************start header **********************/
 img[src="img/sony_logo.svg"]{
@@ -74,14 +93,9 @@ img[src="img/returnal-hero-banner-logo.png"]{
     background-image: url("img/jumbo-bg.png");
     height: 70vh;
     background-position: center;
-
 }
-
 /**************** finish jumbotron **********************/
 /**************** start game **********************/
-.game img{
-    width: 100%;
-}
 .game .pd-3px.lp-rounded{
     border: 3px solid hsl(207deg 100% 40%);   
 }
@@ -94,5 +108,16 @@ img[src="img/returnal-hero-banner-logo.png"]{
     }
     .lp-hidden{
        display: flex;
+    }
+} 
+@media screen and (max-width:767px) {
+    .lp-show{
+       display: none !important;
+    }
+    .lp-hidden{
+       display: flex;
+    }
+    .hidden{
+        display: none !important;
     }
 } 
