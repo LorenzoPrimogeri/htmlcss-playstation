@@ -30,11 +30,17 @@ a{
 .bg-grey{
     background-color: hsl(0deg 0% 21%);
 }
+.bg-lgrey{
+    background-color: hsl(220deg 4% 86%);
+}
 .bg-white{
     background-color: white;
 }
 .bg-orange{
     background-color: hsl(15deg 86% 43%);
+}
+.bg-baige{
+    background-color: hsl(20deg 2% 74%);
 }
 .lp-btn{
     border: 1px solid black;
@@ -111,6 +117,12 @@ img[src="img/returnal-hero-banner-logo.png"]{
     background-position: center;
 }
 /**************** finish takestwo **********************/
+/**************** start plus **********************/
+img[src="img/it-takes-two-logo.png"]{
+    height: 270px;
+}
+
+/**************** finish plus **********************/
 /* media Queries */
 @media screen and (max-width:991px) {
     .lp-show{
