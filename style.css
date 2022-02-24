@@ -100,7 +100,16 @@ img[src="img/returnal-hero-banner-logo.png"]{
     border: 3px solid hsl(207deg 100% 40%);   
 }
 /**************** finish game **********************/
-
+/**************** start takestwo **********************/
+ img[src="img/it-takes-two-logo.png"]{
+    height: 270px;
+}
+.takestwo{
+    background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+    height: 70vh;
+    background-position: center;
+}
+/**************** finish takestwo **********************/
 /* media Queries */
 @media screen and (max-width:991px) {
     .lp-show{
