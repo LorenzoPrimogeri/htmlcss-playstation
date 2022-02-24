@@ -75,6 +75,9 @@ a{
 .pd-3px{
     padding: 3px;
 }
+.w-50p{
+    width: 50%;
+}
 /* finish utility */
 /*****************start header **********************/
 img[src="img/sony_logo.svg"]{
@@ -136,7 +139,7 @@ img[src="img/it-takes-two-logo.png"]{
     }
     .lp-hidden{
        display: flex;
-    }
+    }  
 } 
 @media screen and (max-width:767px) {
     .lp-show{
