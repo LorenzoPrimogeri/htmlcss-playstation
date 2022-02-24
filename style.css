@@ -1,6 +1,5 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-   
 }
 /* start utility */
 .lp-hidden{
@@ -59,7 +58,12 @@ nav li{
  padding-right: 12px;
  font-weight: 700;
 }
-
+.lp-rounded{
+    border-radius: 20px;
+}
+.pd-3px{
+    padding: 3px;
+}
 /* finish nav */
 /**************** finish header **********************/
 /**************** start jumbotron **********************/
@@ -74,6 +78,15 @@ img[src="img/returnal-hero-banner-logo.png"]{
 }
 
 /**************** finish jumbotron **********************/
+/**************** start game **********************/
+.game img{
+    width: 100%;
+}
+.game .pd-3px.lp-rounded{
+    border: 3px solid hsl(207deg 100% 40%);   
+}
+/**************** finish game **********************/
+
 /* media Queries */
 @media screen and (max-width:991px) {
     .lp-show{
