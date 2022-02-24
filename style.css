@@ -21,6 +21,9 @@ a{
 .t-grey{
     color: grey;
 }
+.t-black{
+    color: black;
+}
 .t-blue{
     color: hsl(207deg 100% 40%);
 }
@@ -41,6 +44,9 @@ a{
 }
 .bg-baige{
     background-color: hsl(20deg 2% 74%);
+}
+.bg-drakblue{
+    background-color: hsl(230deg 46% 16%);
 }
 .lp-btn{
     border: 1px solid black;
