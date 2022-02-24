@@ -16,14 +16,14 @@ a{
 .t-white{
     color: white;
 }
-.bg-black{
-    background-color: black;
+.bg-grey{
+    background-color: hsl(0deg 0% 21%);
 }
 .bg-white{
     background-color: white;
 }
 .bg-orange{
-    background-color: orange;
+    background-color: hsl(15deg 86% 43%);
 }
 .lp-btn{
     border: 1px solid black;
@@ -35,14 +35,14 @@ a{
 .pd-top{
     padding-top:200px;
 }
-/* .w-80{
-    width: 80%;
-    margin-auto
-} */
+ .w-95{
+    width: 95%;
+    margin: auto;
+} 
 /* finish utility */
 /*****************start header **********************/
 img[src="img/sony_logo.svg"]{
-    height: 20px;
+    height: 15px;
 }
 /* start nav */
 img[src="img/play_logo.svg"]{
@@ -64,12 +64,13 @@ nav li{
 /**************** finish header **********************/
 /**************** start jumbotron **********************/
 img[src="img/returnal-hero-banner-logo.png"]{
-    height: 30px;
+    height: 50px;
 }
 .jumbo-tron{
     background-image: url("img/jumbo-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center;
+
 }
 
 /**************** finish jumbotron **********************/
