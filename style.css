@@ -5,15 +5,15 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 600;
 }
 /* start utility */
-.lp-hidden{
-    display: none;
-}
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
     font-weight: 600;
+}
+a:hover{
+    color: white;
 }
 .t-white{
     color: white;
@@ -77,6 +77,14 @@ a{
 .w-50p{
     width: 50%;
 }
+.b-hover{
+    border:none;
+}
+.b-hover:hover{
+    border: 4px solid white;
+    padding: 5px 0px;
+    border-radius: 20px;
+}
 /* finish utility */
 /*****************start header **********************/
 header{
@@ -92,8 +100,12 @@ img[src="img/sony_logo.svg"]{
 /* start nav */
 img[src="img/play_logo.svg"]{
     height: 50px;
+    z-index: 2000;
 }
 img[src="img/chevron-down-solid.svg"]{
+    height: 10px;
+}
+img[src="img/chevron-down-solid-hover.svg"]{
     height: 10px;
 }
 img[src="img/lens.svg"]{
@@ -108,7 +120,6 @@ nav li{
     display: list-item;
     list-style: disc !important;
 }
-
 /* finish nav */
 /**************** finish header **********************/
 /**************** start jumbotron **********************/
@@ -154,6 +165,9 @@ img[src="img/language-globe.svg"]{
 img[src="img/sie-logo.svg"]{
     height: 55px;
 }
+.lp-hidden{
+    display: none;
+}
 /**************** finish footer **********************/
 /* media Queries */
 @media screen and (max-width:991px) {
@@ -175,19 +189,27 @@ img[src="img/sie-logo.svg"]{
         display: none !important;
     }
 }
-
+/* hover section */
 .nav-item:hover .dropdown-menu{
     display: block;
 }
+.nav-item:hover .lp-hidden{
+    display: inline-block !important;
+}
+.nav-item:hover .show{
+    display: none !important;
+} 
+.show{
+    display: inline-block;
+}
 .bar {
     left: 0;
-    top: 66px;
+    top: 40px;
 }
 .hoverable{
     width: 100%;
     height: 0px;
 }
-
 .notvisible{
     visibility: hidden;
 }
@@ -196,6 +218,15 @@ img[src="img/sie-logo.svg"]{
 }
 .console [class*="col-"]:hover .notvisible{
     visibility: visible !important;
-
 }
-
+.dropdown-menu div.px-2:hover{
+    border: 2px solid grey;
+}
+.game [class*="col-"]:hover{
+    transition: transform 2s;
+    transform: translateY(-20px);
+}
+.bottone .boxshadow:hover,
+.bottone.boxshadow:hover{
+    box-shadow: 0px 0px 1px 2px black;
+}
