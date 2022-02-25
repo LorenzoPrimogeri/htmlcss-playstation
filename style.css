@@ -60,11 +60,7 @@ a{
 }
 .pd-top{
     padding-top:200px;
-}
- .w-95{
-    width: 95%;
-    margin: auto;
-} 
+}       
 .w-80{
     width: 80%;
     margin: auto;
@@ -83,6 +79,13 @@ a{
 }
 /* finish utility */
 /*****************start header **********************/
+header{
+    position: sticky;
+    height: 113px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 img[src="img/sony_logo.svg"]{
     height: 15px;
 }
@@ -108,7 +111,7 @@ nav li{
 img[src="img/returnal-hero-banner-logo.png"]{
     height: 50px;
 }
-.jumbo-tron{
+.background{
     background-image: url("img/jumbo-bg.png");
     height: 70vh;
     background-position: center;
@@ -168,3 +171,14 @@ img[src="img/sie-logo.svg"]{
         display: none !important;
     }
 } 
+
+.notvisible{
+    visibility: hidden;
+}
+.console .h-100:hover img{
+    opacity: 1 !important;
+}
+.console [class*="col-"]:hover .notvisible{
+    visibility: visible !important;
+
+}
